@@ -2,6 +2,8 @@ project 'MainApp/MainApp'
 workspace 'Extensions'
 use_frameworks!
 
+platform :ios, '9.0'
+
 target 'MainApp' do
   pod 'PubNub'
 

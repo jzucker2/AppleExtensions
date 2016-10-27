@@ -656,6 +656,7 @@
 				CODE_SIGN_ENTITLEMENTS = MainApp/MainApp.entitlements;
 				DEVELOPMENT_TEAM = 8XP4D6N55Z;
 				INFOPLIST_FILE = MainApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PubNub.MainApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -671,6 +672,7 @@
 				CODE_SIGN_ENTITLEMENTS = MainApp/MainApp.entitlements;
 				DEVELOPMENT_TEAM = 8XP4D6N55Z;
 				INFOPLIST_FILE = MainApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PubNub.MainApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -743,6 +745,7 @@
 				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
 				DEVELOPMENT_TEAM = 8XP4D6N55Z;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PubNub.MainApp.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -758,6 +761,7 @@
 				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
 				DEVELOPMENT_TEAM = 8XP4D6N55Z;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PubNub.MainApp.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
