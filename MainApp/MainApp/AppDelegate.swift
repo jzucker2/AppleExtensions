@@ -8,15 +8,24 @@
 
 import UIKit
 import CoreData
+import PubNub
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    let publishChannel = "publishFromExtension"
+    
     var window: UIWindow?
-
-
+    var client: PubNub!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let config = PNConfiguration(publishKey: "demo-36", subscribeKey: "demo-36")
+        self.client = PubNub.clientWithConfiguration(config)
+        self.client.logger.enabled = true
+        self.client.logger.enableLogLevel(PNLogLevel.PNVerboseLogLevel.rawValue)
+        self.client.subscribeToChannels([publishChannel], withPresence: false)
+        
         return true
     }
 
